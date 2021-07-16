@@ -126,10 +126,12 @@ margin-right: -100px;
 .os{
 margin: auto 0;
 }
+
 .sale h5 {
     background-color: #78387B;
     color: white;
     padding: 3px 8px;
+    margin:auto 0;
 }
 .sale-right{
     margin-left: 5px;
@@ -138,7 +140,9 @@ margin: auto 0;
 }
 
 .sale-right small{
+    display: block;
     text-decoration: line-through;
+    font-size: 0.6rem;
 }
 
 /* text line */
@@ -146,7 +150,8 @@ margin: auto 0;
     text-decoration: none;
     color: black;
 }
-.left-text span {
+.left-text span,
+.right-text p {
     color: #78387B;
 }
 
@@ -162,4 +167,48 @@ margin: auto 0;
 .right-text p{
 padding-left: 10px;
 margin: auto 0;
+}
+
+.right-text:hover,
+.left-text:hover{
+    text-decoration: none;
+}
+/* recomendation */
+.bottom-bar{
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+.bottom-bar .nav-link {
+    color: gray !important;
+
+}
+.bottom-bar .nav-link:hover {
+    border: unset !important;
+}
+
+.bottom-bar .active{
+    background-color: unset !important;
+    border: unset;
+    border-bottom: 3px solid purple !important ;
+    color: purple !important;
+}
+.bottom-bar i,
+.bottom-bar h5{
+    position: relative;
+    display: block;
+    margin: auto 0;
+    margin-right: 5px;
+
+}
+.bottom-bar i::after {
+    content: "%";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+
+.bottom-bar h5{
+margin-right: 4rem;
 }
