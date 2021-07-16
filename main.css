@@ -303,6 +303,7 @@ padding: 5px 10px;
     font-size: 1.3rem;
 }
 .strechy{
+    background-position: center;
     background-size: cover;
     display: block;
     height: 100%;
