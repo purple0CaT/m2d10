@@ -258,7 +258,7 @@ margin-right: 4rem;
 .to-center{
     margin: auto;
 }
-.game-tags span{
+.game-tags span, .blue{
 background-color: #083b5f;
 color: white;
 padding: 5px 10px;
@@ -303,13 +303,52 @@ padding: 5px 10px;
     font-size: 1.3rem;
 }
 .strechy{
+    position: relative;
     background-position: center;
     background-size: cover;
     display: block;
     height: 100%;
     width: 100%;
 }
-.strech {
-height: 12.7rem;
+.sliders {
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: 2/0.8;
+    background-position: center;
+    background-size: cover;
+}
+
+/* nav slider */
+.footer-price{
+    position: absolute;
+    bottom: 0;
+}
+.leftpr {
+    color: white !important;
+}
+
+.blue {
+    background-color: #094A77;
+}
+.clr-white {
+    color: white !important;
+}
+.rightpr h2{
+    color: white;
+    padding: 0 10px 0 0;
+    margin: auto 0;
+}
+.buySlid {
+    padding: 1rem 3rem;
+    background-color: #86ad32;
+    color: white;
+    border-radius: 5px;
+    border: unset;
+}
+
+.buySlid:hover {
+    box-shadow: 0 1px 10px grey;
+    background-color: #97c438;
 
 }
