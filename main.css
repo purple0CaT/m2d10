@@ -212,3 +212,27 @@ margin: auto 0;
 .bottom-bar h5{
 margin-right: 4rem;
 }
+.now-on-sale a{
+    background-size: cover;
+    background-image: rgb(0, 0, 0) !important;
+    height: 100%;
+    width: 100%;
+}
+
+.now-sale-col{
+    opacity: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.text-sale{
+    color: yellow;
+}
+.now-sale-col h3{
+    color: white;
+}
+.now-sale-col span{
+    color: white;
+}
